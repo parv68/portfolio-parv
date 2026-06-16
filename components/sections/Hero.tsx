@@ -25,7 +25,7 @@ export function Hero() {
             <FadeIn delay={0.1}>
               <div className="space-y-3">
                 <h1 className="font-display text-5xl sm:text-6xl md:text-7xl leading-none font-normal tracking-tight text-foreground uppercase border-b border-border/40 pb-3">
-                  Parv Ruhil
+                  Parv 
                 </h1>
                 <p className="font-mono text-[10px] sm:text-xs font-bold text-primary tracking-wider uppercase">
                   LATEST DISPATCH: SHIFTING WEB RUNTIMES TO RUST & LOCAL-FIRST STATE
