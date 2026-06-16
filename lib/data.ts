@@ -59,7 +59,7 @@ export const projects: Project[] = [
   {
     name: 'Aegis',
     description:
-      'Implementing an embedded authorization engine in Rust. Formulates granular security compile policies as a first-class compiler primitive, complete with Edge SaaS metering layers deployed via Cloudflare Workers.',
+      'Implementing an embedded Relation-Based Access Control (ReBAC) authorization engine in Rust. Resolves complex relationship paths and role hierarchies locally with sub-millisecond evaluation times.',
     stack: ['Rust', 'WebAssembly'],
     status: 'development',
     featured: false,

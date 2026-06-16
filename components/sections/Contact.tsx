@@ -6,17 +6,24 @@ import { Mail, GitBranch, Globe, Download } from 'lucide-react'
 
 export function Contact() {
   return (
-    <section id="contact" className="px-6 py-16 md:py-20 lg:py-[120px]">
+    <section id="contact" className="px-6 pt-6 pb-16 md:pt-8 md:pb-20 lg:pt-10 lg:pb-[120px]">
       <div className="mx-auto max-w-[600px] text-center">
-        <FadeIn>
-          <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
-            Let&apos;s Build Something Great
-          </h2>
-          <p className="mt-4 text-muted-foreground">
-            I&apos;m always interested in discussing software engineering, AI,
-            developer tools, and exciting opportunities.
-          </p>
-        </FadeIn>
+        <div className="mb-10 select-none">
+          <div className="flex items-center gap-4 font-mono text-[9px] sm:text-xs font-semibold text-primary tracking-widest uppercase mb-6">
+            <span>SEC-ID // 05</span>
+            <div className="h-[1px] flex-1 border-b border-dashed border-border/80" />
+            <span className="text-muted-foreground/40 text-[8px] font-normal">SPEC-DOC_REF_2026</span>
+          </div>
+          <FadeIn>
+            <h2 className="text-3xl font-semibold tracking-tight md:text-4xl text-foreground">
+              Let&apos;s Build Something Great
+            </h2>
+            <p className="mt-4 text-muted-foreground text-sm">
+              I&apos;m always interested in discussing software engineering, distributed systems,
+              developer tools, and exciting opportunities.
+            </p>
+          </FadeIn>
+        </div>
         <FadeIn delay={0.1}>
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             <a

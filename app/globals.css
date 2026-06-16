@@ -117,6 +117,8 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image: radial-gradient(var(--border) 1.2px, transparent 1.2px);
+    background-size: 28px 28px;
   }
 }
 
@@ -127,6 +129,28 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* Custom scrollbar styling for the complete website (minimal & transparent) */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 9999px;
+  transition: background 0.2s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
 }
 
 @utility no-scrollbar {

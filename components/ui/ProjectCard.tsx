@@ -31,9 +31,9 @@ const visualizerConfig = {
     steps: ['Init Sandbox', 'Encrypt', 'Mount Volume'],
   },
   'Aegis': {
-    title: 'auth-policy-compiler-visualizer',
-    buttonLabel: 'Evaluate Policy',
-    steps: ['Compile', 'Verify', 'Access Allowed'],
+    title: 'rebac-auth-evaluator-visualizer',
+    buttonLabel: 'Check Relation',
+    steps: ['Resolve Path', 'Verify Tuple', 'Access Granted'],
   },
   'StegaShare': {
     title: 'stegashare-pipeline-visualizer',

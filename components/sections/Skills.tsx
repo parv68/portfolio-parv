@@ -7,10 +7,10 @@ import { skills } from '@/lib/data'
 
 export function Skills() {
   return (
-    <section id="skills" className="px-6 py-16 md:py-20 lg:py-[120px]">
+    <section id="skills" className="px-6 pt-6 pb-16 md:pt-8 md:pb-20 lg:pt-10 lg:pb-[120px]">
       <div className="mx-auto max-w-[1000px]">
         <FadeIn>
-          <SectionHeader title="Skills" />
+          <SectionHeader title="Skills" number="03" />
         </FadeIn>
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
           {skills.map((group, i) => (

@@ -23,10 +23,10 @@ const milestones = [
 
 export function About() {
   return (
-    <section id="about" className="px-6 py-16 md:py-20 lg:py-[120px]">
+    <section id="about" className="px-6 pt-6 pb-16 md:pt-8 md:pb-20 lg:pt-10 lg:pb-[120px]">
       <div className="mx-auto max-w-[1000px]">
         <FadeIn>
-          <SectionHeader title="About" />
+          <SectionHeader title="About" number="01" />
         </FadeIn>
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <FadeIn delay={0.1} className="flex-1">
