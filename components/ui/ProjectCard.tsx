@@ -40,6 +40,11 @@ const visualizerConfig = {
     buttonLabel: 'Conceal File',
     steps: ['Compress File', 'Encrypt GCM', 'Weave LSB'],
   },
+  'CryptoTrace': {
+    title: 'cryptotrace-analysis-visualizer',
+    buttonLabel: 'Analyze Payload',
+    steps: ['Scan Bytes', 'Heuristics', 'Classify Payload'],
+  },
 } as const
 
 interface ProjectCardProps {

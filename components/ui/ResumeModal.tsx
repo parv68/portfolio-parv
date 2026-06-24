@@ -130,7 +130,7 @@ export function ResumeModal() {
                 <div>
                   <div className="flex justify-between items-baseline font-medium text-foreground">
                     <span>Bachelor of Computer Applications (BCA)</span>
-                    <span className="font-mono text-xs text-muted-foreground">2023 &mdash; Present</span>
+                    <span className="font-mono text-xs text-muted-foreground">2023 &mdash; 2026</span>
                   </div>
                   <p className="text-xs text-muted-foreground mt-0.5">Focusing on Algorithms, Systems Programming, and Distributed Architecture.</p>
                 </div>

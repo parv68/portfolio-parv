@@ -7,7 +7,7 @@ const milestones = [
   {
     year: '2026',
     title: 'BCA Graduation & Open Source',
-    desc: 'Graduated with BCA. Authored and launched open-source developer engines: DevBoxOS, VaultSync, Aegis, and StegaShare.',
+    desc: 'Graduated with BCA. Authored and launched open-source developer engines: DevBoxOS, VaultSync, Aegis, StegaShare, and CryptoTrace.',
   },
   {
     year: '2025',

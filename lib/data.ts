@@ -42,7 +42,7 @@ export const projects: Project[] = [
     status: 'development',
     featured: true,
     links: {
-      github: 'https://github.com/parv68/VaultSync',
+      github: 'https://github.com/ParvLab/VaultSync',
     },
   },
   {
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     status: 'rc',
     featured: true,
     links: {
-      github: 'https://github.com/parv68/DevBoxOS',
+      github: 'https://github.com/ParvLab/DevBoxOS',
     },
   },
   {
@@ -64,7 +64,7 @@ export const projects: Project[] = [
     status: 'development',
     featured: false,
     links: {
-      github: 'https://github.com/parv68/AEGIS',
+      github: 'https://github.com/ParvLab/AEGIS',
     },
   },
   {
@@ -75,7 +75,18 @@ export const projects: Project[] = [
     status: 'stable',
     featured: false,
     links: {
-      github: 'https://github.com/parv68/StegaShare',
+      github: 'https://github.com/ParvLab/StegaShare',
+    },
+  },
+  {
+    name: 'CryptoTrace',
+    description:
+      'Developed an open-source cryptographic fingerprinting and payload classification engine in Rust. Detects hashes, encodings, and compression formats inside unknown or obfuscated payloads.',
+    stack: ['Rust', 'CLI'],
+    status: 'stable',
+    featured: false,
+    links: {
+      github: 'https://github.com/ParvLab/CryptoTrace',
     },
   },
 ]
@@ -83,19 +94,19 @@ export const projects: Project[] = [
 export const skills: SkillGroup[] = [
   {
     category: 'Frontend',
-    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'State Synchronization'],
+    skills: ['React.js','React Native','Next.js', 'TypeScript', 'Tailwind CSS', 'State Synchronization'],
   },
   {
     category: 'Backend',
-    skills: ['Node.js', 'Distributed Systems', 'WebSockets', 'gRPC / Protocol Buffers'],
+    skills: ['Node.js','Express.js', 'Distributed Systems', 'WebSockets', 'gRPC / Protocol Buffers'],
   },
   {
     category: 'Database',
-    skills: ['SQLite (Local-first)', 'PostgreSQL', 'Redis Caching', 'Vector Databases'],
+    skills: ['SQLite (Local-first)', 'PostgreSQL', 'MySQL','Redis Caching', 'Vector Databases', 'MongoDB'],
   },
   {
     category: 'DevOps',
-    skills: ['Docker Sandboxing', 'Linux Daemons', 'GitHub Actions', 'Cloudflare', 'AWS'],
+    skills: ['Docker Sandboxing', 'Linux Daemons', 'GitHub Actions', 'Cloudflare', 'AWS', 'Railway', 'Vercel'],
   },
 ]
 
@@ -138,7 +149,7 @@ export const openSourceStats: OSStats = {
 }
 
 export const social: SocialLinks = {
-  github: 'https://github.com/parv68',
+  github: 'https://github.com/ParvLab',
   linkedin: 'https://www.linkedin.com/in/parv-ruhil-429659290/',
   email: 'parvruhil68@gmail.com',
 }
