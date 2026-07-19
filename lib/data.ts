@@ -94,7 +94,7 @@ export const projects: Project[] = [
 export const skills: SkillGroup[] = [
   {
     category: 'Frontend',
-    skills: ['React.js','React Native','Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion' 'State Synchronization'],
+    skills: ['React.js','React Native','Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'State Synchronization'],
   },
   {
     category: 'Backend',
