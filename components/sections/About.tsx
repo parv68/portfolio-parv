@@ -32,8 +32,7 @@ export function About() {
           <FadeIn delay={0.1} className="flex-1">
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I&apos;m a Full Stack Developer and Systems Engineer, currently
-                pursuing a Bachelor of Computer Applications. I focus on building
+                I&apos;m a Full Stack Developer and Systems Engineer.I focus on building
                 developer tools, secure sandboxed runtimes, and local-first systems.
                 I enjoy engineering tools that remove friction, solve complex resource orchestration
                 problems, and empower other developers to build better software.
