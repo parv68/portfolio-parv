@@ -98,7 +98,7 @@ export const skills: SkillGroup[] = [
   },
   {
     category: 'Backend',
-    skills: ['Node.js','Express.js', 'Rust', 'Go' 'Distributed Systems', 'WebSockets', 'gRPC / Protocol Buffers'],
+    skills: ['Node.js','Express.js', 'Rust', 'Go', 'Distributed Systems', 'WebSockets', 'gRPC / Protocol Buffers'],
   },
   {
     category: 'Database',
