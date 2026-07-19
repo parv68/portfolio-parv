@@ -94,11 +94,11 @@ export const projects: Project[] = [
 export const skills: SkillGroup[] = [
   {
     category: 'Frontend',
-    skills: ['React.js','React Native','Next.js', 'TypeScript', 'Tailwind CSS', 'State Synchronization'],
+    skills: ['React.js','React Native','Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion' 'State Synchronization'],
   },
   {
     category: 'Backend',
-    skills: ['Node.js','Express.js', 'Distributed Systems', 'WebSockets', 'gRPC / Protocol Buffers'],
+    skills: ['Node.js','Express.js', 'Rust', 'Go' 'Distributed Systems', 'WebSockets', 'gRPC / Protocol Buffers'],
   },
   {
     category: 'Database',
